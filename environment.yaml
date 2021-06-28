@@ -1,0 +1,17 @@
+name: visualization_task 
+channels:
+  - conda-forge
+  - plotly
+  - defaults
+dependencies:
+  - pip
+  - pytest
+  - nomkl
+  - ipywidgets>=7.6
+  - jupyterlab>=3
+  - pandas
+  - pyarrow
+  - python=3.8.2
+  - matplotlib
+  - plotly=5.0.0
+  - cookiecutter
